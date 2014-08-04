@@ -23,6 +23,7 @@
 		BC3BC99A198F801600599B13 /* LocalizationSystemExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3BC999198F801600599B13 /* LocalizationSystemExampleTests.m */; };
 		BC3BC9A7198F854400599B13 /* GGLocalizationSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3BC9A5198F846200599B13 /* GGLocalizationSystem.m */; };
 		BC3BC9AA198F932700599B13 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC3BC9AC198F932700599B13 /* Localizable.strings */; };
+		BC3BC9BE198FD85F00599B13 /* myFile.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC3BC9C0198FD85F00599B13 /* myFile.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		BC3BC9AE198F933E00599B13 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC3BC9AF198F933E00599B13 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BC3BC9B0198F933E00599B13 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC3BC9BF198FD85F00599B13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/myFile.plist; sourceTree = "<group>"; };
+		BC3BC9C1198FD86100599B13 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fr; path = fr.lproj/myFile.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,7 @@
 				BC3BC97A198F801600599B13 /* main.m */,
 				BC3BC97C198F801600599B13 /* LocalizationSystemExample-Prefix.pch */,
 				BC3BC9AC198F932700599B13 /* Localizable.strings */,
+				BC3BC9C0198FD85F00599B13 /* myFile.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -260,6 +264,7 @@
 				BC3BC987198F801600599B13 /* Images.xcassets in Resources */,
 				BC3BC9AA198F932700599B13 /* Localizable.strings in Resources */,
 				BC3BC979198F801600599B13 /* InfoPlist.strings in Resources */,
+				BC3BC9BE198FD85F00599B13 /* myFile.plist in Resources */,
 				BC3BC982198F801600599B13 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +344,15 @@
 				BC3BC9AF198F933E00599B13 /* fr */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		BC3BC9C0198FD85F00599B13 /* myFile.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC3BC9BF198FD85F00599B13 /* en */,
+				BC3BC9C1198FD86100599B13 /* fr */,
+			);
+			name = myFile.plist;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

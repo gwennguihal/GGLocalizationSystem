@@ -35,6 +35,11 @@
     NSLog(@"Current language: %@",[[GGLocalizationSystem sharedLocalSystem] getLanguage]);
     // print hello world
     NSLog( @"%@",GGLocalizeString(@"hello_world") );
+    
+    // data
+    NSString* path = [[[GGLocalizationSystem sharedLocalSystem] bundle] pathForResource:@"myFile" ofType:@"plist"];
+    NSMutableDictionary *dict = [[NSMutableDictionary alloc] initWithContentsOfFile:path];
+    NSLog(@"dict:%@",dict);
 }
 
 @end
