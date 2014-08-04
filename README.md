@@ -23,3 +23,9 @@ To localize other data like `.plist` file:
 NSString* path = [[[GGLocalizationSystem sharedLocalSystem] bundle] pathForResource:@"myFile" ofType:@"plist"];
 NSMutableDictionary *dict = [[NSMutableDictionary alloc] initWithContentsOfFile:path];
 ```
+
+### Installing
+
+If you're using [CocoPods](http://cocopods.org) it's as simple as adding this to your `Podfile`:
+
+	pod 'GGLocalizationSystem', '~> 1.0'
