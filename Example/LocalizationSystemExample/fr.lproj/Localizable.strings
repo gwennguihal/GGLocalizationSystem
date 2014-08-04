@@ -1,0 +1,8 @@
+/* 
+  Localizable.strings
+  LocalizationSystemExample
+
+  Created by GWENN GUIHAL on 04/08/2014.
+
+*/
+"hello_world"="Salut le Monde !";
