@@ -58,6 +58,11 @@ static GGLocalizationSystem* _singleton = nil;
 	return [_bundle localizedStringForKey:key value:comment table:nil];
 }
 
+- (NSString *)localizedStringForKey:(NSString *)key value:(NSString *)comment table:(NSString *)tableName
+{
+    return [_bundle localizedStringForKey:key value:comment table:tableName];
+}
+
 - (void) setLanguage:(NSString*) lg
 {
 	NSString *path = [[ NSBundle mainBundle ] pathForResource:lg ofType:@"lproj" ];

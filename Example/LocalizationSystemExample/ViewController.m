@@ -35,6 +35,8 @@
     NSLog(@"Current language: %@",[[GGLocalizationSystem sharedLocalSystem] getLanguage]);
     // print hello world
     NSLog( @"%@",GGLocalizeString(@"hello_world") );
+    NSLog( @"%@",GGLocalizeStringForInterfaceWithName(@"CKg-nV-n2I.normalTitle", @"Main") );
+
     
     // data
     NSString* path = [[[GGLocalizationSystem sharedLocalSystem] bundle] pathForResource:@"myFile" ofType:@"plist"];
@@ -42,4 +44,7 @@
     NSLog(@"dict:%@",dict);
 }
 
+- (IBAction)switchLanguage:(id)sender {
+    [[GGLocalizationSystem sharedLocalSystem] setLanguage:@"en"];
+}
 @end
