@@ -10,5 +10,9 @@
 
 @interface ViewController : UIViewController
 - (IBAction)switchLanguage:(id)sender;
+@property (strong, nonatomic) IBOutlet UIButton *buttonOutlet;
+@property (strong, nonatomic) IBOutlet UIButton *englishButton;
+@property (strong, nonatomic) IBOutlet UILabel *labelOutlet;
+- (IBAction)activateEnglishLanguage:(id)sender;
 
 @end

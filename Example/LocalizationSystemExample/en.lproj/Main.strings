@@ -1,6 +1,9 @@
 
-/* Class = "IBUIButton"; normalTitle = "Button"; ObjectID = "CKg-nV-n2I"; */
-"CKg-nV-n2I.normalTitle" = "Button";
+/* Class = "IBUIButton"; normalTitle = "French"; ObjectID = "CKg-nV-n2I"; */
+"CKg-nV-n2I.normalTitle" = "French";
 
 /* Class = "IBUILabel"; text = "Label"; ObjectID = "Ihn-UL-YDZ"; */
-"Ihn-UL-YDZ.text" = "Label";
+"Ihn-UL-YDZ.text" = "Active language is english";
+
+/* Class = "IBUIButton"; normalTitle = "English"; ObjectID = "ebn-n0-btk"; */
+"ebn-n0-btk.normalTitle" = "English Active";

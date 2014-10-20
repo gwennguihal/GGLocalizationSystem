@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		55BEF18619F54BBB00088839 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
-		55BEF18819F54D6C00088839 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		55BEF18B19F5521900088839 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		55BEF18D19F552D200088839 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 		BC3BC96B198F801600599B13 /* LocalizationSystemExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationSystemExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3BC96E198F801600599B13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BC3BC970198F801600599B13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -324,8 +324,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				BC3BC981198F801600599B13 /* Base */,
-				55BEF18619F54BBB00088839 /* fr */,
-				55BEF18819F54D6C00088839 /* en */,
+				55BEF18B19F5521900088839 /* en */,
+				55BEF18D19F552D200088839 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
