@@ -34,15 +34,21 @@ static NSString* GGLOCALIZATIONSYSTEM_LANGUAGE_DID_CHANGE = @"GGLOCALIZATIONSYST
 #define GGLocalizeString(key) \
 [[GGLocalizationSystem sharedLocalSystem] localizedStringForKey:(key) value:(nil)]
 
+#define GGLocalizeStringForInterfaceWithName(key, interfaceName) \
+[[GGLocalizationSystem sharedLocalSystem] localizedStringForKey:(key) value:(nil) table:(interfaceName)]
+
+
 + (GGLocalizationSystem *)sharedLocalSystem;
 
 /**
  Localize a string
  You can use the macros instead:
  - GGLocalizeStringWithComment
+ - GGLocalizeStringForInterfaceWithName
  - GGLocalizationSystem
  */
 - (NSString *)localizedStringForKey:(NSString *)key value:(NSString *)comment;
+- (NSString *)localizedStringForKey:(NSString *)key value:(NSString *)comment table:(NSString *)tableName;
 /**
  Set the language
  */

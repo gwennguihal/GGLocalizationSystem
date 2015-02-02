@@ -37,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55BEF18B19F5521900088839 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		55BEF18D19F552D200088839 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 		BC3BC96B198F801600599B13 /* LocalizationSystemExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationSystemExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3BC96E198F801600599B13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BC3BC970198F801600599B13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,7 +61,6 @@
 		BC3BC9A4198F846200599B13 /* GGLocalizationSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGLocalizationSystem.h; sourceTree = "<group>"; };
 		BC3BC9A5198F846200599B13 /* GGLocalizationSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGLocalizationSystem.m; sourceTree = "<group>"; };
 		BC3BC9AB198F932700599B13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		BC3BC9AD198F933E00599B13 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 		BC3BC9AE198F933E00599B13 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC3BC9AF198F933E00599B13 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		BC3BC9B0198F933E00599B13 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -323,7 +324,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				BC3BC981198F801600599B13 /* Base */,
-				BC3BC9AD198F933E00599B13 /* fr */,
+				55BEF18B19F5521900088839 /* en */,
+				55BEF18D19F552D200088839 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
